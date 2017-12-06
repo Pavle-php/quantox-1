@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+div.tab .tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+div.tab a#logout {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #008CBA;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 15px 12px;
+    height: calc(100% - 100px);
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style for search and tables */
+.search {
+  
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.table th, .table td {
+  text-align: left;
+  padding: 12px;
+}
+
+.table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.table tr.header, .table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style for submit buttons */
+
+#submit {
+    background-color: #008CBA;
+    width: 20%;
+    border: none;
+    color: white;
+    padding: 14px 14px;
+    cursor: pointer;
+    float: right;
+}
